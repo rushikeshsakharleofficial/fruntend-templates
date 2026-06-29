@@ -1,0 +1,107 @@
+[
+  {
+    "name": "SaaS Landing Page Kit",
+    "source": "local-seed",
+    "url": "templates/website/saas-landing-page.md",
+    "category": "website",
+    "license": "MIT",
+    "copyPolicy": "copy-code",
+    "tags": ["saas", "landing", "website"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Local baseline template for SaaS landing pages."
+  },
+  {
+    "name": "Admin Dashboard Shell",
+    "source": "local-seed",
+    "url": "templates/dashboard/admin-dashboard-shell.md",
+    "category": "dashboard",
+    "license": "MIT",
+    "copyPolicy": "copy-code",
+    "tags": ["dashboard", "admin", "shell"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Local baseline admin shell pattern."
+  },
+  {
+    "name": "Infra Monitoring Dashboard",
+    "source": "local-seed",
+    "url": "templates/monitoring/infra-monitoring-dashboard.md",
+    "category": "monitoring",
+    "license": "MIT",
+    "copyPolicy": "copy-code",
+    "tags": ["monitoring", "servers", "infra"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Local baseline pattern for server, queue, proxy, DNS, cloud inventory, and audit dashboards."
+  },
+  {
+    "name": "Admin One React Tailwind",
+    "source": "github",
+    "repository": "justboil/admin-one-react-tailwind",
+    "url": "https://github.com/justboil/admin-one-react-tailwind",
+    "category": "admin-dashboard",
+    "license": "MIT",
+    "copyPolicy": "metadata-and-compatible-code",
+    "tags": ["react", "tailwind", "admin", "dashboard", "rbac", "tables"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Use as reference for reusable admin shell, sidebar, cards, data table layout, RBAC/admin IAM screens, and CRUD dashboards. License verified from upstream LICENSE."
+  },
+  {
+    "name": "Horizon UI Tailwind React",
+    "source": "github",
+    "repository": "horizon-ui/horizon-tailwind-react",
+    "url": "https://github.com/horizon-ui/horizon-tailwind-react",
+    "category": "analytics-dashboard",
+    "license": "MIT",
+    "copyPolicy": "metadata-and-compatible-code",
+    "tags": ["react", "tailwind", "analytics", "kpi", "dashboard", "cards"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Use as reference for KPI cards, analytics sections, dashboard navigation, and light/dark visual hierarchy. License verified from upstream LICENSE.md."
+  },
+  {
+    "name": "Materio MUI Next.js Admin Template Free",
+    "source": "github",
+    "repository": "themeselection/materio-mui-nextjs-admin-template-free",
+    "url": "https://github.com/themeselection/materio-mui-nextjs-admin-template-free",
+    "category": "admin-dashboard",
+    "license": "MIT",
+    "copyPolicy": "metadata-and-compatible-code",
+    "tags": ["nextjs", "mui", "material", "admin", "dashboard", "settings"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Use as reference for Material-style admin pages, settings screens, cards, nav hierarchy, and dashboard forms. License verified from upstream LICENSE."
+  },
+  {
+    "name": "TailAdmin React",
+    "source": "github",
+    "repository": "TailAdmin/free-react-tailwind-admin-dashboard",
+    "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard",
+    "category": "admin-dashboard",
+    "license": "unverified-in-repo",
+    "copyPolicy": "metadata-only",
+    "tags": ["react", "tailwind", "admin", "calendar", "charts", "dashboard"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Good candidate for admin dashboard structure and component inventory. No LICENSE file was found during this sync, so store metadata/prompt notes only unless license is verified later."
+  },
+  {
+    "name": "Cruip Tailwind Dashboard Template",
+    "source": "github",
+    "repository": "cruip/tailwind-dashboard-template",
+    "url": "https://github.com/cruip/tailwind-dashboard-template",
+    "category": "dashboard-shell",
+    "license": "unverified-in-repo",
+    "copyPolicy": "metadata-only",
+    "tags": ["tailwind", "dashboard", "shell", "admin", "charts"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "Use as visual/reference metadata only unless license is verified. Useful for dashboard shell, sidebar, table/list screens, and SaaS analytics pages."
+  },
+  {
+    "name": "shadcn Dashboard Landing Template",
+    "source": "github",
+    "repository": "shadcnstore/shadcn-dashboard-landing-template",
+    "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template",
+    "category": "saas-dashboard-landing",
+    "license": "unverified-in-repo",
+    "copyPolicy": "metadata-only",
+    "tags": ["shadcn", "nextjs", "landing", "dashboard", "saas"],
+    "discoveredAt": "2026-06-30T00:00:00+05:30",
+    "notes": "New relevant candidate for combined SaaS landing and dashboard structure. Store metadata only until license is verified."
+  }
+]
