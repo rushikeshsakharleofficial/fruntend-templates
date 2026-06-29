@@ -1,72 +1,60 @@
 # Frontend Templates
 
-Offline-first frontend component skill for generating SaaS-grade UI components, pages, layouts, prompts, and reusable templates.
+Offline-first frontend component repository for generating SaaS-grade websites, dashboards, pages, prompt recipes, and reusable design profiles.
 
-> Repository bootstrapped by the `frontend-components` skill generator.
-
-## Purpose
-
-This repository stores reusable frontend templates and prompt recipes for building high-quality SaaS interfaces without depending on live design tools at generation time.
-
-It supports:
+## Supported targets
 
 - HTML, CSS, JavaScript, TypeScript
 - React / TSX
 - Node.js tooling
-- PHP frontend rendering and Laravel Blade-style templates
-- Vue, Svelte, Angular, Astro adapters
-- Tailwind CSS, CSS Modules, SCSS/Sass
-- SaaS design profiles inspired by Cloudflare, Vercel, Supabase, Notion, Google Material, Atlassian, Linear, Stripe, GitHub, Slack, and Shopify-style interfaces
+- PHP frontend rendering and Blade-style templates
+- Vue, Svelte, Angular, Astro adapter guidance
+- Utility CSS, CSS Modules, SCSS/Sass
 
-## What is included
+React is treated as a UI library. Node.js is treated as runtime/tooling. PHP is supported for server-rendered frontend templates.
+
+## Main folders
 
 ```txt
-frontend-components/
-  SKILL.md
-  PRIVACY.md
-  package.json
-  tsconfig.json
-  registry/
-  design-md/
-  prompts/
-  templates/
-  components/
-  collectors/
-  scripts/
-  .github/workflows/
+design-md/       Design profiles for SaaS styles
+templates/       Website, dashboard, auth, billing, monitoring templates
+ui/              Reusable UI block notes
+prompts/         Prompt recipes
+registry/        Template/source/score metadata
+collectors/      Daily discovery scripts
+scripts/         Local cron helpers
+.github/workflows/daily-template-discovery.yml
 ```
 
-## Offline-first model
+## Daily automation
 
-The skill works from local files:
+The repository includes a GitHub Actions workflow at:
 
-1. Pick a design profile from `design-md/`.
-2. Pick a component or page template from `components/` or `templates/`.
-3. Use a prompt recipe from `prompts/`.
-4. Generate framework-specific output using `adapters/`.
+```txt
+.github/workflows/daily-template-discovery.yml
+```
 
-## Daily update flow
+It runs daily at **12:00 AM Asia/Kolkata** and commits updates directly to `main` for testing.
 
-This repository includes two update paths:
+The ChatGPT scheduled task is also configured daily at 12:00 AM IST with the same rule: add only new templates, do not remove old templates, and update `main` directly.
 
-### GitHub Actions
+## Use locally
 
-`.github/workflows/daily-component-scan.yml` runs daily and creates an `auto/component-discovery` branch with newly discovered metadata.
+```bash
+npm install
+npm run discover
+```
 
-### Local cron
-
-Run:
+## Optional local cron
 
 ```bash
 bash scripts/install-cron.sh
 ```
 
-The cron is opt-in. It does not run unless installed manually.
+## License and source rule
 
-## Licensing rule
-
-Only copy source code when the upstream license is clearly compatible, such as MIT, Apache-2.0, BSD, ISC, or CC0. For unclear, gated, or paid sources, store only metadata, design notes, and prompt patterns.
+Copy source code only when the upstream license is clearly compatible, such as MIT, Apache-2.0, BSD, ISC, or CC0. For unclear, paid, gated, or proprietary sources, store metadata and prompt notes only.
 
 ## Safety rule
 
-The collector never uploads private user projects. It only reads configured public sources from `collectors/sources.yaml`.
+The collector must not collect private project files, secrets, credentials, private repositories, or proprietary source code.
