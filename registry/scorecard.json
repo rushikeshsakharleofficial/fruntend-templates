@@ -1,0 +1,20 @@
+{
+  "min_score": 70,
+  "weights": {
+    "clear_license": 25,
+    "recent_update": 15,
+    "stars_or_usage": 15,
+    "typescript_support": 10,
+    "responsive": 10,
+    "accessibility": 10,
+    "visual_quality": 10,
+    "low_dependency_risk": 5
+  },
+  "penalties": {
+    "unclear_license": -50,
+    "paid_or_gated_code": -40,
+    "abandoned": -20,
+    "heavy_dependencies": -10,
+    "no_responsive_support": -15
+  }
+}
