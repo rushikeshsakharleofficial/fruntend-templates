@@ -1,0 +1,10 @@
+{
+  "allowed_licenses": ["MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "ISC", "CC0-1.0"],
+  "sources": [
+    {"name": "shadcn/ui", "type": "registry", "url": "https://ui.shadcn.com", "copy_code": "license_required", "priority": 100},
+    {"name": "21st.dev", "type": "catalog", "url": "https://21st.dev", "copy_code": "license_required", "priority": 95},
+    {"name": "Aceternity UI", "type": "component-site", "url": "https://ui.aceternity.com", "copy_code": "license_required", "priority": 90},
+    {"name": "Supabase UI", "type": "official-library", "url": "https://supabase.com/ui", "copy_code": "license_required", "priority": 90},
+    {"name": "MUI", "type": "library", "url": "https://mui.com", "copy_code": "license_required", "priority": 80}
+  ]
+}
