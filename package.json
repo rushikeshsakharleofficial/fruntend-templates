@@ -1,0 +1,22 @@
+{
+  "name": "fruntend-templates",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Offline-first frontend component and SaaS template repository.",
+  "scripts": {
+    "collect": "tsx collectors/collect.ts",
+    "normalize": "tsx collectors/normalize.ts",
+    "license-check": "tsx collectors/license-check.ts",
+    "score": "tsx collectors/score.ts",
+    "discover": "npm run collect && npm run normalize && npm run license-check && npm run score",
+    "validate": "tsc --noEmit"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
