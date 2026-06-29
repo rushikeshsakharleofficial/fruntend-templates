@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-06-29",
+  "priority_order": [
+    "saas-landing-page",
+    "admin-dashboard-shell",
+    "advanced-data-table",
+    "analytics-kpi-dashboard",
+    "auth-flow-kit",
+    "settings-page-kit",
+    "billing-subscription-kit",
+    "server-monitoring-dashboard",
+    "email-queue-monitoring-dashboard",
+    "proxy-ip-monitoring-dashboard",
+    "dns-migration-dashboard",
+    "user-activity-audit-dashboard",
+    "cloud-inventory-dashboard",
+    "rbac-admin-dashboard",
+    "ecommerce-storefront",
+    "mobile-app-landing",
+    "service-business-site",
+    "portfolio-agency-site"
+  ],
+  "items": [
+    {
+      "name": "SaaS Landing Page",
+      "path": "templates/website/saas-landing-page.md",
+      "sections": ["navbar", "hero", "logo-cloud", "features", "bento-grid", "pricing", "faq", "cta", "footer"]
+    },
+    {
+      "name": "Admin Dashboard Shell",
+      "path": "templates/dashboard/admin-dashboard-shell.md",
+      "sections": ["sidebar", "topbar", "kpi", "table", "activity", "settings"]
+    },
+    {
+      "name": "Infra Monitoring Dashboard",
+      "path": "templates/monitoring/infra-monitoring-dashboard.md",
+      "sections": ["health", "filters", "kpi", "incidents", "logs", "table"]
+    },
+    {
+      "name": "Billing Subscription",
+      "path": "templates/billing/billing-subscription.md",
+      "sections": ["pricing", "usage", "invoices", "payment-method", "upgrade-modal"]
+    },
+    {
+      "name": "Auth Flow Kit",
+      "path": "templates/auth/auth-flow-kit.md",
+      "sections": ["login", "signup", "forgot", "otp", "mfa", "invite"]
+    }
+  ]
+}
