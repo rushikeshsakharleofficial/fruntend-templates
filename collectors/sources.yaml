@@ -1,0 +1,28 @@
+allowed_copy_licenses:
+  - MIT
+  - Apache-2.0
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - ISC
+  - CC0-1.0
+
+github_queries:
+  - "react dashboard template stars:>300 pushed:>2026-01-01"
+  - "nextjs dashboard shadcn stars:>200 pushed:>2026-01-01"
+  - "tailwind saas landing page template stars:>200 pushed:>2026-01-01"
+  - "typescript react components tailwind ui stars:>200 pushed:>2026-01-01"
+  - "admin dashboard react tailwind stars:>200 pushed:>2026-01-01"
+
+catalog_sources:
+  - name: shadcn-ui
+    url: https://ui.shadcn.com
+    copy_code: license_required
+  - name: 21st-dev
+    url: https://21st.dev
+    copy_code: license_required
+  - name: aceternity-ui
+    url: https://ui.aceternity.com
+    copy_code: license_required
+  - name: supabase-ui
+    url: https://supabase.com/ui
+    copy_code: license_required
