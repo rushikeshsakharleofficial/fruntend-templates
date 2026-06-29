@@ -5,6 +5,12 @@
     {"name": "21st.dev", "type": "catalog", "url": "https://21st.dev", "copy_code": "license_required", "priority": 95},
     {"name": "Aceternity UI", "type": "component-site", "url": "https://ui.aceternity.com", "copy_code": "license_required", "priority": 90},
     {"name": "Supabase UI", "type": "official-library", "url": "https://supabase.com/ui", "copy_code": "license_required", "priority": 90},
-    {"name": "MUI", "type": "library", "url": "https://mui.com", "copy_code": "license_required", "priority": 80}
+    {"name": "MUI", "type": "library", "url": "https://mui.com", "copy_code": "license_required", "priority": 80},
+    {"name": "Admin One React Tailwind", "type": "github-template", "url": "https://github.com/justboil/admin-one-react-tailwind", "copy_code": "MIT", "priority": 88, "categories": ["admin-dashboard", "advanced-tables", "rbac-admin"]},
+    {"name": "Horizon UI Tailwind React", "type": "github-template", "url": "https://github.com/horizon-ui/horizon-tailwind-react", "copy_code": "MIT", "priority": 86, "categories": ["analytics-dashboard", "kpi-dashboard", "admin-dashboard"]},
+    {"name": "Materio MUI Next.js Admin Free", "type": "github-template", "url": "https://github.com/themeselection/materio-mui-nextjs-admin-template-free", "copy_code": "MIT", "priority": 84, "categories": ["material-admin", "settings-pages", "admin-dashboard"]},
+    {"name": "TailAdmin React", "type": "github-template", "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard", "copy_code": "metadata_only_until_license_verified", "priority": 82, "categories": ["admin-dashboard", "charts", "calendar-dashboard"]},
+    {"name": "Cruip Tailwind Dashboard Template", "type": "github-template", "url": "https://github.com/cruip/tailwind-dashboard-template", "copy_code": "metadata_only_until_license_verified", "priority": 80, "categories": ["dashboard-shell", "analytics-dashboard", "saas-dashboard"]},
+    {"name": "shadcn Dashboard Landing Template", "type": "github-template", "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template", "copy_code": "metadata_only_until_license_verified", "priority": 78, "categories": ["saas-landing", "dashboard-shell", "shadcn"]}
   ]
 }
