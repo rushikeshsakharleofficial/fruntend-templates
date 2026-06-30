@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-06-30T00:00:00+05:30",
+  "purpose": "Concrete internet-discovered UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
+  "license_policy": "Only reuse code when a compatible license is verified. Otherwise store metadata, screenshots/notes, category mapping, and prompt guidance only.",
+  "templates": [
+    {
+      "name": "TailAdmin React Tailwind Admin Dashboard",
+      "repository": "TailAdmin/free-react-tailwind-admin-dashboard",
+      "url": "https://github.com/TailAdmin/free-react-tailwind-admin-dashboard",
+      "category": "admin-dashboard",
+      "framework": "React",
+      "styling": "Tailwind CSS",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["admin dashboards", "dashboard shells", "charts", "calendar", "forms", "settings pages"],
+      "skill_usage": "Use as concrete reference for admin dashboard shells, widgets, calendars, charts, tables, and settings layouts."
+    },
+    {
+      "name": "Admin One React Tailwind",
+      "repository": "justboil/admin-one-react-tailwind",
+      "url": "https://github.com/justboil/admin-one-react-tailwind",
+      "category": "admin-dashboard",
+      "framework": "React",
+      "styling": "Tailwind CSS",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["admin dashboard", "RBAC pages", "tables", "cards", "CRUD screens"],
+      "skill_usage": "Use for admin shell, sidebar, cards, tables, user-management, and internal tool layouts."
+    },
+    {
+      "name": "Materio MUI Next.js Admin Template Free",
+      "repository": "themeselection/materio-mui-nextjs-admin-template-free",
+      "url": "https://github.com/themeselection/materio-mui-nextjs-admin-template-free",
+      "category": "material-admin-dashboard",
+      "framework": "Next.js",
+      "styling": "MUI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["Material admin", "settings", "forms", "analytics", "dashboard cards"],
+      "skill_usage": "Use for Material-style admin screens, settings pages, form-heavy dashboards, and enterprise UI."
+    },
+    {
+      "name": "Devias Material Kit React",
+      "repository": "devias-io/material-kit-react",
+      "url": "https://github.com/devias-io/material-kit-react",
+      "category": "website-and-admin-kit",
+      "framework": "React",
+      "styling": "MUI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["marketing pages", "Material components", "forms", "cards", "account screens"],
+      "skill_usage": "Use for Material-style website sections, account pages, profile/settings screens, and clean form layouts."
+    },
+    {
+      "name": "ixartz SaaS Boilerplate",
+      "repository": "ixartz/SaaS-Boilerplate",
+      "url": "https://github.com/ixartz/SaaS-Boilerplate",
+      "category": "saas-boilerplate",
+      "framework": "Next.js",
+      "styling": "Tailwind CSS",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["SaaS landing", "auth", "billing", "dashboard", "i18n", "app shell"],
+      "skill_usage": "Use as concrete SaaS structure reference for landing pages, auth, billing, dashboard shell, and production app layout."
+    },
+    {
+      "name": "Horizon UI shadcn Next.js Boilerplate",
+      "repository": "horizon-ui/shadcn-nextjs-boilerplate",
+      "url": "https://github.com/horizon-ui/shadcn-nextjs-boilerplate",
+      "category": "shadcn-dashboard-boilerplate",
+      "framework": "Next.js",
+      "styling": "Tailwind CSS + shadcn/ui",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["shadcn dashboard", "app shell", "auth-ready layouts", "SaaS starter"],
+      "skill_usage": "Use for shadcn-style app shell, dashboard layout, and modern Next.js SaaS UI patterns."
+    },
+    {
+      "name": "Cruip Tailwind Dashboard Template",
+      "repository": "cruip/tailwind-dashboard-template",
+      "url": "https://github.com/cruip/tailwind-dashboard-template",
+      "category": "dashboard-shell",
+      "framework": "HTML/React-style Tailwind templates",
+      "styling": "Tailwind CSS",
+      "license": "not verified in this run",
+      "reuse_policy": "metadata-only",
+      "best_for": ["dashboard shell", "analytics layout", "cards", "tables", "sidebar"],
+      "skill_usage": "Use as visual/category reference only until license is verified."
+    },
+    {
+      "name": "shadcn Dashboard Landing Template",
+      "repository": "shadcnstore/shadcn-dashboard-landing-template",
+      "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template",
+      "category": "saas-dashboard-landing",
+      "framework": "Next.js",
+      "styling": "Tailwind CSS + shadcn/ui",
+      "license": "not verified in this run",
+      "reuse_policy": "metadata-only",
+      "best_for": ["landing + dashboard", "SaaS app", "modern shadcn layout"],
+      "skill_usage": "Use as visual/category reference only until license is verified."
+    },
+    {
+      "name": "Saleor Storefront",
+      "repository": "saleor/storefront",
+      "url": "https://github.com/saleor/storefront",
+      "category": "ecommerce-storefront",
+      "framework": "Next.js",
+      "styling": "Tailwind-style ecommerce UI",
+      "license": "FSL-1.1-ALv2 future license",
+      "reuse_policy": "metadata-only",
+      "best_for": ["ecommerce storefront", "product grid", "cart", "checkout", "catalog"],
+      "skill_usage": "Use as architecture and UX reference only. Do not import source into this skill unless license compatibility is reviewed separately."
+    }
+  ]
+}
