@@ -1,28 +1,32 @@
 {
-  "updated_at": "2026-06-30T08:45:00+05:30",
-  "purpose": "Daily scan targets for real UI components, blocks, and templates similar to 21st.dev.",
+  "updated_at": "2026-06-30T09:20:00+05:30",
+  "purpose": "Daily scan targets for free/public UI components, blocks, and templates similar to 21st.dev.",
+  "free_only": true,
   "rules": [
-    "Add concrete sources, not only prompts.",
+    "Add concrete free sources, not only prompts.",
     "Keep old entries.",
     "Verify license before copying code.",
-    "Use metadata only for paid, gated, unclear, or incompatible sources."
+    "Skip paid, Pro, premium, gated, login-required, subscription-only, trial-only, marketplace-only, or unclear-access items.",
+    "For free sources with unclear code license, store metadata only.",
+    "Do not store paid/gated/pro metadata."
   ],
   "catalog_targets": [
     {
       "name": "21st.dev",
       "url": "https://21st.dev",
-      "scan": ["components", "themes", "templates", "latest", "popular"],
+      "scan": ["free components", "free themes", "free templates", "latest", "popular"],
       "categories": ["dashboard", "admin panel", "SaaS", "developer tool", "AI chat", "analytics", "ecommerce", "CMS", "authentication", "landing page", "portfolio", "documentation"]
     },
     {
-      "name": "Magic UI",
+      "name": "Magic UI free components",
       "url": "https://magicui.design",
-      "scan": ["free animated components", "effects", "landing page blocks", "templates"]
+      "scan": ["free animated components", "free effects", "free landing page blocks"]
     },
     {
-      "name": "Aceternity UI",
+      "name": "Aceternity UI free components",
       "url": "https://ui.aceternity.com",
-      "scan": ["components", "blocks", "templates", "changelog", "hero sections", "features", "bento grids", "pricing", "SaaS templates", "AI agent templates"]
+      "scan": ["free components", "free blocks", "free hero sections", "free features", "free bento grids", "free pricing blocks"],
+      "skip": ["paid templates", "premium templates"]
     },
     {
       "name": "shadcn/ui blocks",
@@ -35,39 +39,36 @@
       "scan": ["auth", "database", "platform kit", "project dashboard"]
     },
     {
-      "name": "Flowbite",
+      "name": "Flowbite free components and blocks",
       "url": "https://flowbite.com",
-      "scan": ["components", "blocks", "admin dashboard", "application UI", "marketing UI"]
+      "scan": ["free components", "free blocks", "free admin dashboard", "free application UI", "free marketing UI"],
+      "skip": ["Flowbite Pro", "paid templates"]
     },
     {
-      "name": "Preline UI",
+      "name": "Preline UI free components",
       "url": "https://preline.co",
-      "scan": ["components", "examples", "templates", "application UI"]
+      "scan": ["free components", "free examples", "free templates", "free application UI"],
+      "skip": ["paid templates", "pro examples"]
     },
     {
-      "name": "Tremor",
+      "name": "Tremor free components",
       "url": "https://tremor.so",
-      "scan": ["dashboards", "charts", "KPI cards", "analytics"]
+      "scan": ["free dashboards", "free charts", "free KPI cards", "free analytics blocks"],
+      "skip": ["premium templates", "paid templates"]
     },
     {
-      "name": "Origin UI",
+      "name": "Origin UI free components",
       "url": "https://originui.com",
-      "scan": ["copy paste components", "blocks", "forms", "navigation", "tables"]
-    },
-    {
-      "name": "Tailwind Plus UI Blocks",
-      "url": "https://tailwindcss.com/plus/ui-blocks",
-      "scan": ["marketing", "application UI", "ecommerce", "pricing", "tables", "forms", "navigation", "modals", "page examples"],
-      "reuse_policy": "metadata only unless license allows copying"
+      "scan": ["free copy paste components", "free blocks", "forms", "navigation", "tables"]
     }
   ],
   "github_queries": [
-    "react dashboard template stars:>300 pushed:>2026-01-01",
-    "nextjs dashboard shadcn stars:>200 pushed:>2026-01-01",
-    "tailwind saas landing page template stars:>200 pushed:>2026-01-01",
-    "nextjs saas boilerplate tailwind stars:>300 pushed:>2025-01-01",
-    "react tailwind ecommerce storefront stars:>100 pushed:>2025-01-01",
-    "nextjs ai chat dashboard template stars:>100 pushed:>2025-01-01",
-    "nextjs documentation template tailwind stars:>100 pushed:>2025-01-01"
+    "react dashboard template stars:>300 pushed:>2026-01-01 license:mit",
+    "nextjs dashboard shadcn stars:>200 pushed:>2026-01-01 license:mit",
+    "tailwind saas landing page template stars:>200 pushed:>2026-01-01 license:mit",
+    "nextjs saas boilerplate tailwind stars:>300 pushed:>2025-01-01 license:mit",
+    "react tailwind ecommerce storefront stars:>100 pushed:>2025-01-01 license:mit",
+    "nextjs ai chat dashboard template stars:>100 pushed:>2025-01-01 license:mit",
+    "nextjs documentation template tailwind stars:>100 pushed:>2025-01-01 license:mit"
   ]
 }
