@@ -1,0 +1,134 @@
+{
+  "updated_at": "2026-06-30T09:00:00+05:30",
+  "purpose": "Immediate discovery run for concrete UI templates/components similar to 21st.dev and other modern UI catalogs.",
+  "rules": [
+    "Prefer concrete components, blocks, and templates over generic prompts.",
+    "Copy code only when license is verified as compatible.",
+    "Use metadata-only for paid, gated, unclear, or incompatible sources.",
+    "Keep old registry items and append new discoveries."
+  ],
+  "items": [
+    {
+      "name": "21st.dev Component and Template Catalog",
+      "source": "21st.dev",
+      "url": "https://21st.dev",
+      "type": "catalog",
+      "category": "multi-category-ui-catalog",
+      "framework": "React",
+      "styling": "varies by submitted component",
+      "reuse_policy": "license-required-per-item",
+      "best_for": ["dashboards", "admin panels", "SaaS", "AI chat", "analytics", "ecommerce", "CMS", "auth", "landing pages", "portfolios", "documentation"],
+      "skill_usage": "Use as a daily discovery source for exact community components/templates. Store each matched item with its own license and source URL."
+    },
+    {
+      "name": "shadcn/ui dashboard-01 block",
+      "source": "shadcn/ui blocks",
+      "url": "https://ui.shadcn.com/blocks",
+      "install_hint": "npx shadcn add dashboard-01",
+      "type": "copy-paste-block",
+      "category": "dashboard-shell",
+      "framework": "React",
+      "styling": "Tailwind CSS + shadcn/ui",
+      "reuse_policy": "compatible-open-source",
+      "best_for": ["sidebar dashboard", "charts", "data table", "section cards", "admin shell"],
+      "skill_usage": "Use as the default concrete dashboard shell reference for SaaS/admin/analytics dashboards."
+    },
+    {
+      "name": "shadcn/ui sidebar-07 block",
+      "source": "shadcn/ui blocks",
+      "url": "https://ui.shadcn.com/blocks",
+      "install_hint": "npx shadcn add sidebar-07",
+      "type": "copy-paste-block",
+      "category": "dashboard-navigation",
+      "framework": "React",
+      "styling": "Tailwind CSS + shadcn/ui",
+      "reuse_policy": "compatible-open-source",
+      "best_for": ["collapsible sidebar", "team switcher", "workspace navigation", "user menu"],
+      "skill_usage": "Use when generating dashboard sidebars, workspace switchers, and responsive app navigation."
+    },
+    {
+      "name": "Magic UI free animated components",
+      "source": "Magic UI",
+      "url": "https://magicui.design",
+      "type": "component-library",
+      "category": "animated-components-and-effects",
+      "framework": "React",
+      "styling": "Tailwind CSS + Motion",
+      "reuse_policy": "open-source-components-license-required-per-file",
+      "best_for": ["landing pages", "hero effects", "animated backgrounds", "micro-interactions", "SaaS marketing"],
+      "skill_usage": "Use for animated website effects and premium-looking landing page sections. Keep Pro templates metadata-only unless license permits reuse."
+    },
+    {
+      "name": "Aceternity Productized Agency Template",
+      "source": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "type": "template",
+      "category": "agency-website",
+      "framework": "Next.js / React",
+      "styling": "Tailwind CSS + Framer Motion",
+      "reuse_policy": "metadata-only-until-template-license-confirmed",
+      "best_for": ["agency website", "services", "packages", "pricing", "portfolio"],
+      "skill_usage": "Use as design/reference metadata for agency and service business website generation."
+    },
+    {
+      "name": "Aceternity Simplistic SaaS Template",
+      "source": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "type": "template",
+      "category": "saas-landing-page",
+      "framework": "Next.js / React",
+      "styling": "Tailwind CSS + Framer Motion",
+      "reuse_policy": "metadata-only-until-template-license-confirmed",
+      "best_for": ["AI startup", "agentic SaaS", "bento grids", "microinteractions", "pricing", "marketing"],
+      "skill_usage": "Use as a high-quality reference for AI/SaaS landing pages with bento grids and microinteractions."
+    },
+    {
+      "name": "Aceternity Nodus Agent Template",
+      "source": "Aceternity UI",
+      "url": "https://ui.aceternity.com",
+      "type": "template",
+      "category": "ai-agent-landing-page",
+      "framework": "Next.js / React",
+      "styling": "Tailwind CSS + Framer Motion",
+      "reuse_policy": "metadata-only-until-template-license-confirmed",
+      "best_for": ["AI agents", "AI chatbot", "developer SaaS", "clean modern landing page"],
+      "skill_usage": "Use as design/reference metadata for AI agent, chatbot, and automation SaaS websites."
+    },
+    {
+      "name": "Preline UI components, blocks and templates",
+      "source": "Preline UI",
+      "url": "https://preline.co",
+      "type": "component-block-template-catalog",
+      "category": "tailwind-ui-catalog",
+      "framework": "HTML, JavaScript, TypeScript, React, Vue, Next.js, Laravel and more",
+      "styling": "Tailwind CSS",
+      "reuse_policy": "open-source-and-pro-mixed-license-required-per-item",
+      "best_for": ["HTML templates", "Tailwind blocks", "dashboards", "websites", "apps", "ecommerce", "forms", "tables", "navigation"],
+      "skill_usage": "Use for non-React HTML/Tailwind output and cross-framework UI blocks. Verify each item license before copying."
+    },
+    {
+      "name": "Tremor dashboard and analytics templates",
+      "source": "Tremor",
+      "url": "https://www.tremor.so",
+      "type": "dashboard-components-and-templates",
+      "category": "analytics-dashboard",
+      "framework": "React / Next.js",
+      "styling": "Tailwind CSS + Radix UI + charts",
+      "reuse_policy": "open-source-components-plus-premium-templates-license-required",
+      "best_for": ["KPI dashboards", "charts", "advanced tables", "report pages", "analytics", "SaaS metrics"],
+      "skill_usage": "Use for monitoring, analytics, KPI, queue, and infra dashboards that need strong chart/table patterns."
+    },
+    {
+      "name": "Coss UI / Origin UI component particles",
+      "source": "Coss UI",
+      "url": "https://coss.com/ui",
+      "type": "component-library",
+      "category": "base-ui-components",
+      "framework": "React-style component system",
+      "styling": "modern component primitives",
+      "reuse_policy": "license-required-before-code-copy",
+      "best_for": ["forms", "tables", "command palette", "drawers", "date picker", "OTP", "empty states", "skeletons", "navigation"],
+      "skill_usage": "Use as a component taxonomy/reference for admin and SaaS app primitives. Verify license before copying implementation code."
+    }
+  ]
+}
