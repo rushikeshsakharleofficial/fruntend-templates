@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-30T00:00:00+05:30",
-  "purpose": "Concrete internet-discovered UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
-  "license_policy": "Only reuse code when a compatible license is verified. Otherwise store metadata, screenshots/notes, category mapping, and prompt guidance only.",
+  "updated_at": "2026-06-30T23:58:38+05:30",
+  "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
+  "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
     {
       "name": "TailAdmin React Tailwind Admin Dashboard",
@@ -110,6 +110,54 @@
       "reuse_policy": "metadata-only",
       "best_for": ["ecommerce storefront", "product grid", "cart", "checkout", "catalog"],
       "skill_usage": "Use as architecture and UX reference only. Do not import source into this skill unless license compatibility is reviewed separately."
+    },
+    {
+      "name": "AI SaaS Starter Template Kit for Next.js and Tailwind CSS",
+      "repository": "AIStarterKit/ai-saas-starter-kit-nextjs",
+      "url": "https://github.com/AIStarterKit/ai-saas-starter-kit-nextjs",
+      "category": "ai-saas-starter-kit",
+      "framework": "Next.js",
+      "styling": "Tailwind CSS v4",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["AI SaaS landing", "dashboard", "auth pages", "pricing page", "blog page", "AI generator UI"],
+      "skill_usage": "Use only the free/open-source repository version as reference for AI SaaS page structure, dashboard/auth/pricing/blog layout, and generator-style product UI. Ignore Pro-only features listed in upstream comparison tables."
+    },
+    {
+      "name": "Studio Admin Next.js Shadcn Dashboard",
+      "repository": "caseedudev/next-shadcn-admin-dashboard",
+      "url": "https://github.com/caseedudev/next-shadcn-admin-dashboard",
+      "category": "shadcn-admin-dashboard",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui + Framer Motion",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["admin dashboard", "CRM dashboard", "finance dashboard", "auth flows", "theme presets", "RBAC planning"],
+      "skill_usage": "Use for modern shadcn admin shells with collapsible sidebars, multiple dashboard variants, auth screens, theme presets, feature colocation, and future RBAC/user-management screen planning."
+    },
+    {
+      "name": "Shadcn Fintech Dashboard",
+      "repository": "abderrahimghazali/shadcn-fintech",
+      "url": "https://github.com/abderrahimghazali/shadcn-fintech",
+      "category": "fintech-dashboard",
+      "framework": "Next.js 16 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui + Motion",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["fintech dashboard", "analytics dashboard", "transactions table", "settings page", "notifications", "budget tracking", "investment UI"],
+      "skill_usage": "Use as a concrete reference for high-interaction dashboard pages: searchable transactions, settings/security/billing tabs, analytics charts, notifications, draggable widgets, and rich card-based financial UX."
+    },
+    {
+      "name": "Next.js 14 Supabase Dashboard",
+      "repository": "w3labkr/nextjs14-supabase-dashboard",
+      "url": "https://github.com/w3labkr/nextjs14-supabase-dashboard",
+      "category": "supabase-dashboard-starter",
+      "framework": "Next.js 14",
+      "styling": "Tailwind CSS + shadcn/ui",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["Supabase dashboard", "auth-backed admin", "Prisma dashboard", "server actions", "API dashboard shell"],
+      "skill_usage": "Use for Supabase-auth dashboard structure, App Router layouts, Prisma-backed data screens, route organization, and secure server-action oriented admin UI patterns."
     }
   ]
 }
