@@ -8,6 +8,7 @@ Purpose: reusable style profiles for generating free/open-source UI templates wi
 - Prefer CSS variables for color tokens and spacing.
 - Use open-source icon sets and avoid proprietary logos unless the user provides rights.
 - Use free/open-source components first; do not import paid/pro UI blocks.
+- Treat missing license files, gated downloads, Pro comparisons, or unclear redistribution terms as metadata-only references.
 
 ---
 
@@ -205,3 +206,29 @@ Purpose: reusable style profiles for generating free/open-source UI templates wi
 - Dark/light: both modes using variables.
 - Components: data table, filters, create/edit modal, empty states, audit timeline.
 - Prompt pattern: "Generate a minimal admin UI with sidebar navigation, data table, filters, CRUD modal, empty state, audit timeline, and clean neutral styling."
+
+## Free shadcn SaaS Admin
+
+- Color tokens: CSS-variable driven neutrals, subtle primary accent, muted borders, semantic success/warning/destructive states.
+- Typography: compact app UI labels, clear route/page titles, mono metadata for IDs and API values.
+- Buttons: shadcn-style default/secondary/ghost/destructive variants with strong focus rings.
+- Cards: KPI cards, chart cards, billing cards, notification cards, workspace/team cards.
+- Layout: collapsible sidebar + sticky header + route groups for dashboard, auth, billing, settings, chat, kanban, and tables.
+- Spacing: medium dashboard density with consistent 4px/8px Tailwind scale.
+- Radius/shadow: variable radius, border-first cards, limited shadows.
+- Dark/light: theme switcher, tweakcn-compatible token mapping, avoid hardcoded colors.
+- Components: React Query data tables, filters, pagination, command palette, kanban, chat, notifications, billing/subscription page, team/workspace management.
+- Prompt pattern: "Generate a free shadcn SaaS admin dashboard with collapsible sidebar, analytics cards, React Query data table, kanban, chat, notifications, billing, settings, workspace/team management, and token-based dark/light themes."
+
+## Free TailAdmin-style Next Dashboard
+
+- Color tokens: clean light surfaces, dark-mode variables, blue primary accent, green/red/amber status tokens.
+- Typography: practical admin labels, strong KPI numbers, readable table and chart legends.
+- Buttons: compact primary actions, outline table actions, grouped filters, icon dropdowns.
+- Cards: dashboard KPI widgets, line/bar chart panels, profile cards, auth cards, alert cards.
+- Layout: stable admin shell with sidebar, topbar, dashboard content grid, charts/tables, auth/profile/error pages.
+- Spacing: balanced dashboard density for operations/admin screens.
+- Radius/shadow: medium radius, soft shadows on cards, clear borders in dark mode.
+- Dark/light: built-in dark mode; keep chart colors accessible in both modes.
+- Components: 30+ free dashboard components, forms, inputs, alerts, dropdowns, modals, charts, tables, profile, 404, and auth screens.
+- Prompt pattern: "Generate a free TailAdmin-style Next.js dashboard with sidebar, topbar, KPI widgets, chart panels, auth forms, profile page, tables, alerts, modals, and accessible dark mode."
