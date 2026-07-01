@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T23:58:38+05:30",
+  "updated_at": "2026-07-02T00:01:32+05:30",
   "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
   "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
@@ -76,28 +76,28 @@
       "skill_usage": "Use for shadcn-style app shell, dashboard layout, and modern Next.js SaaS UI patterns."
     },
     {
-      "name": "Cruip Tailwind Dashboard Template",
+      "name": "Cruip Mosaic Lite Tailwind Dashboard Template",
       "repository": "cruip/tailwind-dashboard-template",
       "url": "https://github.com/cruip/tailwind-dashboard-template",
       "category": "dashboard-shell",
-      "framework": "HTML/React-style Tailwind templates",
+      "framework": "React/Vite",
       "styling": "Tailwind CSS",
-      "license": "not verified in this run",
+      "license": "GPL-3.0 with upstream redistribution/resale restriction note",
       "reuse_policy": "metadata-only",
       "best_for": ["dashboard shell", "analytics layout", "cards", "tables", "sidebar"],
-      "skill_usage": "Use as visual/category reference only until license is verified."
+      "skill_usage": "Use as visual/category reference only. Do not copy code into distributable skill bundles because upstream README includes redistribution/resale restrictions."
     },
     {
       "name": "shadcn Dashboard Landing Template",
       "repository": "shadcnstore/shadcn-dashboard-landing-template",
       "url": "https://github.com/shadcnstore/shadcn-dashboard-landing-template",
       "category": "saas-dashboard-landing",
-      "framework": "Next.js",
-      "styling": "Tailwind CSS + shadcn/ui",
-      "license": "not verified in this run",
-      "reuse_policy": "metadata-only",
-      "best_for": ["landing + dashboard", "SaaS app", "modern shadcn layout"],
-      "skill_usage": "Use as visual/category reference only until license is verified."
+      "framework": "Next.js 15 + Vite/React",
+      "styling": "Tailwind CSS v4 + shadcn/ui",
+      "license": "MIT badge/README claim; LICENSE file not present in fetched repository path",
+      "reuse_policy": "metadata-only-until-license-file-verified",
+      "best_for": ["landing + dashboard", "SaaS app", "mail/tasks/chat/calendar demo", "settings/auth/pricing pages", "theme customizer"],
+      "skill_usage": "Use as free visual/category reference for combined landing + dashboard experiences. Do not copy source until an actual license file or release license is verified."
     },
     {
       "name": "Saleor Storefront",
@@ -158,6 +158,42 @@
       "reuse_policy": "compatible-code",
       "best_for": ["Supabase dashboard", "auth-backed admin", "Prisma dashboard", "server actions", "API dashboard shell"],
       "skill_usage": "Use for Supabase-auth dashboard structure, App Router layouts, Prisma-backed data screens, route organization, and secure server-action oriented admin UI patterns."
+    },
+    {
+      "name": "Kiranism Next Shadcn Dashboard Starter",
+      "repository": "Kiranism/next-shadcn-dashboard-starter",
+      "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
+      "category": "shadcn-saas-admin-dashboard",
+      "framework": "Next.js 16 / React / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui + tweakcn themes",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["SaaS admin dashboards", "internal tools", "analytics dashboards", "product/user tables", "kanban", "chat", "notifications", "billing pages", "team/workspace management"],
+      "skill_usage": "Use as a concrete modern SaaS dashboard reference with app router folders, sidebar/header layout, React Query data tables, Clerk-style auth/workspaces, billing pages, kanban, chat, notifications, and multi-theme shadcn UI patterns."
+    },
+    {
+      "name": "TailAdmin Free Next.js Admin Dashboard",
+      "repository": "TailAdmin/free-nextjs-admin-dashboard",
+      "url": "https://github.com/TailAdmin/free-nextjs-admin-dashboard",
+      "category": "nextjs-admin-dashboard",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["admin dashboards", "control panels", "AI dashboard", "sales dashboard", "finance dashboard", "auth forms", "charts", "tables", "dark mode"],
+      "skill_usage": "Use only the free repository/demo version for Next.js admin shells, dashboard widgets, sidebar/navigation, auth forms, charts, data tables, profile/error pages, and dark-mode dashboard layout patterns. Ignore Pro-only dashboard variants and components."
+    },
+    {
+      "name": "Horizon UI Tailwind React Admin Dashboard",
+      "repository": "horizon-ui/horizon-tailwind-react",
+      "url": "https://github.com/horizon-ui/horizon-tailwind-react",
+      "category": "react-tailwind-admin-dashboard",
+      "framework": "React",
+      "styling": "Tailwind CSS",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["React admin dashboard", "profile pages", "authentication pages", "NFT-style dashboards", "component galleries", "dashboard cards"],
+      "skill_usage": "Use the free MIT React/Tailwind version as a reference for polished dashboard cards, profile/auth/example pages, component gallery structure, and modern rounded card-heavy admin UI. Ignore Horizon Pro assets."
     }
   ]
 }
