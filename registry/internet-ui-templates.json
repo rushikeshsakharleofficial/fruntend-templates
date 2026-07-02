@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T00:01:32+05:30",
+  "updated_at": "2026-07-02T23:58:07+05:30",
   "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
   "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
@@ -194,6 +194,30 @@
       "reuse_policy": "compatible-code-free-version-only",
       "best_for": ["React admin dashboard", "profile pages", "authentication pages", "NFT-style dashboards", "component galleries", "dashboard cards"],
       "skill_usage": "Use the free MIT React/Tailwind version as a reference for polished dashboard cards, profile/auth/example pages, component gallery structure, and modern rounded card-heavy admin UI. Ignore Horizon Pro assets."
+    },
+    {
+      "name": "NextBase Lite Next.js Supabase Starter",
+      "repository": "auto-deploy-landingpage-inspirations/nextbase-nextjs-saas-starter",
+      "url": "https://github.com/auto-deploy-landingpage-inspirations/nextbase-nextjs-saas-starter",
+      "category": "supabase-saas-starter",
+      "framework": "Next.js 14 / TypeScript",
+      "styling": "Tailwind CSS + Headless UI + Radix UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-lite-version-only",
+      "best_for": ["Supabase SaaS starter", "landing page", "auth-ready app shell", "typed database workflows", "testing setup", "SEO-ready SaaS app"],
+      "skill_usage": "Use only the free Lite repository for Supabase-backed SaaS structure, minimal landing pages, typed app-router workflows, test-ready setup, SEO metadata, and production starter organization. Ignore the premium NextBase boilerplate mentioned in the upstream README."
+    },
+    {
+      "name": "Next Auth Dashboard Starter",
+      "repository": "maruf-pfc/next-auth-dashboard-starter",
+      "url": "https://github.com/maruf-pfc/next-auth-dashboard-starter",
+      "category": "auth-dashboard-starter",
+      "framework": "Next.js 15 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + Radix UI + shadcn-style primitives",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["authentication dashboard", "protected app shell", "dark/light mode", "Radix UI dashboard", "NextAuth starter", "simple internal tools"],
+      "skill_usage": "Use for lightweight protected dashboard shells with NextAuth, Radix UI dialogs/dropdowns/tooltips, theme switching, toast notifications, simple app navigation, and production-oriented TypeScript/Tailwind setup."
     }
   ]
 }
