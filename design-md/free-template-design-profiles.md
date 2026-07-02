@@ -232,3 +232,29 @@ Purpose: reusable style profiles for generating free/open-source UI templates wi
 - Dark/light: built-in dark mode; keep chart colors accessible in both modes.
 - Components: 30+ free dashboard components, forms, inputs, alerts, dropdowns, modals, charts, tables, profile, 404, and auth screens.
 - Prompt pattern: "Generate a free TailAdmin-style Next.js dashboard with sidebar, topbar, KPI widgets, chart panels, auth forms, profile page, tables, alerts, modals, and accessible dark mode."
+
+## Free NextBase Lite Supabase SaaS
+
+- Color tokens: simple Tailwind neutrals, blue/indigo product accents, green success states, muted warning/error states.
+- Typography: clean SaaS sans-serif, readable landing copy, compact developer dashboard labels.
+- Buttons: straightforward primary CTA, outline secondary, compact auth/action controls.
+- Cards: minimal landing cards, auth panels, setup cards, database/action cards.
+- Layout: SaaS landing + authenticated app shell, Supabase setup flow, typed data-fetching examples, testing-aware folder organization.
+- Spacing: medium product density with enough whitespace for onboarding and documentation-style sections.
+- Radius/shadow: medium radius, light shadow, border-first dashboard sections.
+- Dark/light: token-ready; avoid hardcoding so Supabase-style dark mode can be added.
+- Components: landing page, auth-ready routes, Supabase typed data views, React Query examples, setup/checklist screens, SEO metadata blocks.
+- Prompt pattern: "Generate a free NextBase Lite-style Supabase SaaS starter with simple landing page, authenticated app shell, typed Supabase data screens, setup checklist, testing-ready structure, and clean Tailwind UI."
+
+## Free NextAuth Dashboard Starter
+
+- Color tokens: Tailwind CSS variable neutrals, subtle primary accent, muted borders, destructive and success tokens.
+- Typography: compact protected-app labels, clear login/dashboard headings, monospace for session/user metadata.
+- Buttons: shadcn-style primary/secondary/ghost buttons, dropdown menu actions, accessible focus states.
+- Cards: login cards, user/session cards, admin widgets, toast/action cards.
+- Layout: lightweight protected dashboard shell with auth entry point, top navigation, simple sidebar-ready content area, and responsive cards.
+- Spacing: compact internal-tool density with generous auth form spacing.
+- Radius/shadow: variable radius, mostly flat cards with thin borders.
+- Dark/light: next-themes-compatible light/dark mode, token-driven colors.
+- Components: NextAuth login/logout flow, protected dashboard card grid, dropdown menus, dialogs, tooltips, theme toggle, toast notifications.
+- Prompt pattern: "Generate a free NextAuth dashboard starter with protected routes, login card, user/session widgets, Radix dropdown/dialog/tooltip components, theme toggle, toast notifications, and responsive Tailwind layout."
