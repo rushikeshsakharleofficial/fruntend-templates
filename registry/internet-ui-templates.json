@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T23:58:07+05:30",
+  "updated_at": "2026-07-03T23:59:41+05:30",
   "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
   "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
@@ -218,6 +218,18 @@
       "reuse_policy": "compatible-code",
       "best_for": ["authentication dashboard", "protected app shell", "dark/light mode", "Radix UI dashboard", "NextAuth starter", "simple internal tools"],
       "skill_usage": "Use for lightweight protected dashboard shells with NextAuth, Radix UI dialogs/dropdowns/tooltips, theme switching, toast notifications, simple app navigation, and production-oriented TypeScript/Tailwind setup."
+    },
+    {
+      "name": "Saasy Land Next 14 Fullstack SaaS",
+      "repository": "appcrafts/nextjs14-fullstack-saas",
+      "url": "https://github.com/appcrafts/nextjs14-fullstack-saas",
+      "category": "fullstack-saas-starter",
+      "framework": "Next.js 14 / TypeScript",
+      "styling": "Tailwind CSS + shadcn/ui + Radix UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["SaaS landing page", "auth flows", "database-backed starter", "email verification", "password reset", "blog", "pricing/features/testimonials/FAQ sections"],
+      "skill_usage": "Use as a free MIT reference for full-stack SaaS landing pages and auth/database starter structure: NextAuth, ORM-backed users, email verification/password reset, React Email, newsletter/contact forms, Contentlayer/MDX blog, pricing/features/testimonials/FAQ sections, and shadcn/Radix Tailwind UI composition."
     }
   ]
 }
