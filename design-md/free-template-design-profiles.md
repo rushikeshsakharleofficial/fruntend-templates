@@ -258,3 +258,16 @@ Purpose: reusable style profiles for generating free/open-source UI templates wi
 - Dark/light: next-themes-compatible light/dark mode, token-driven colors.
 - Components: NextAuth login/logout flow, protected dashboard card grid, dropdown menus, dialogs, tooltips, theme toggle, toast notifications.
 - Prompt pattern: "Generate a free NextAuth dashboard starter with protected routes, login card, user/session widgets, Radix dropdown/dialog/tooltip components, theme toggle, toast notifications, and responsive Tailwind layout."
+
+## Free Saasy Land Fullstack SaaS
+
+- Color tokens: Tailwind neutral surfaces, product blue/indigo accent, green success states, red destructive states, muted borders for form-heavy auth screens.
+- Typography: clean SaaS marketing headings, readable form labels, compact dashboard/developer metadata.
+- Buttons: primary CTA for landing/pricing, outline secondary actions, compact auth/provider buttons, destructive account actions.
+- Cards: landing feature cards, pricing/testimonial/FAQ cards, auth panels, newsletter/contact cards, blog/MDX cards.
+- Layout: marketing landing page plus full-stack auth/database app shell; include sign-in/sign-up, email verification, password reset, newsletter, contact form, and blog/documentation sections.
+- Spacing: generous marketing sections, tighter auth/dashboard form spacing, consistent Tailwind scale.
+- Radius/shadow: medium radius, light card shadows, clear focus rings on all forms.
+- Dark/light: next-themes compatible; keep tokens neutral so both SaaS marketing and app dashboard surfaces remain readable.
+- Components: NextAuth flows, OAuth/magic-link/email-password auth, database-backed user screens, React Email templates, Contentlayer/MDX blog, pricing, features, testimonials, FAQ, newsletter, contact form.
+- Prompt pattern: "Generate a free Saasy Land-style full-stack SaaS starter UI with polished landing page, pricing/features/testimonials/FAQ, NextAuth sign-in/sign-up, email verification/password reset screens, newsletter/contact forms, MDX blog cards, and Tailwind shadcn/Radix components."
