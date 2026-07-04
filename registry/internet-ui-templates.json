@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-03T23:59:41+05:30",
+  "updated_at": "2026-07-04T23:58:06+05:30",
   "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
   "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
@@ -230,6 +230,42 @@
       "reuse_policy": "compatible-code",
       "best_for": ["SaaS landing page", "auth flows", "database-backed starter", "email verification", "password reset", "blog", "pricing/features/testimonials/FAQ sections"],
       "skill_usage": "Use as a free MIT reference for full-stack SaaS landing pages and auth/database starter structure: NextAuth, ORM-backed users, email verification/password reset, React Email, newsletter/contact forms, Contentlayer/MDX blog, pricing/features/testimonials/FAQ sections, and shadcn/Radix Tailwind UI composition."
+    },
+    {
+      "name": "CoreUI Free React Admin Template",
+      "repository": "coreui/coreui-free-react-admin-template",
+      "url": "https://github.com/coreui/coreui-free-react-admin-template",
+      "category": "react-bootstrap-admin-dashboard",
+      "framework": "React 19 / Vite",
+      "styling": "CoreUI + Bootstrap/Sass",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["React admin dashboards", "Bootstrap admin panels", "charts", "forms", "tables", "responsive admin shells", "legacy-friendly admin UIs"],
+      "skill_usage": "Use only the free MIT React/Vite version as a reference for CoreUI/Bootstrap-style admin shells, responsive navigation, chart dashboards, tables, forms, and operational control panels. Ignore CoreUI Pro templates and Pro-only theme variants."
+    },
+    {
+      "name": "Nuxt UI Dashboard Template",
+      "repository": "nuxt-ui-templates/dashboard",
+      "url": "https://github.com/nuxt-ui-templates/dashboard",
+      "category": "nuxt-dashboard-template",
+      "framework": "Nuxt 4 / Vue 3 / TypeScript",
+      "styling": "Nuxt UI + Tailwind CSS v4",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["Vue/Nuxt dashboards", "collapsible sidebars", "command palette", "keyboard shortcuts", "light/dark mode", "admin dashboard shell", "data tables"],
+      "skill_usage": "Use as a free MIT Vue/Nuxt dashboard reference for Nuxt UI app shells, multi-page dashboard routing, collapsible sidebars, command palettes, keyboard-first interactions, dark/light mode, and Tailwind v4 dashboard composition."
+    },
+    {
+      "name": "Open Dashboard Skill Catalogue",
+      "repository": "ahpxex/open-dashboard",
+      "url": "https://github.com/ahpxex/open-dashboard",
+      "category": "ai-dashboard-skill-catalogue",
+      "framework": "TanStack Start / React 19 / Vite",
+      "styling": "Tailwind CSS v4 + shadcn-on-Base UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["AI-generated back offices", "CRUD dashboards", "RBAC pages", "billing dashboards", "kanban/calendar/wizard pages", "dashboard skill patterns", "agent-composable UI shapes"],
+      "skill_usage": "Use as a free MIT reference for agent-composable dashboard skill design: scaffold foundation first, then add tested UI shapes for CRUD tables, master-detail pages, kanban, calendar, charts, billing, RBAC, command palette, i18n, realtime, and backend presets."
     }
   ]
 }
