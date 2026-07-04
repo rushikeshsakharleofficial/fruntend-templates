@@ -271,3 +271,42 @@ Purpose: reusable style profiles for generating free/open-source UI templates wi
 - Dark/light: next-themes compatible; keep tokens neutral so both SaaS marketing and app dashboard surfaces remain readable.
 - Components: NextAuth flows, OAuth/magic-link/email-password auth, database-backed user screens, React Email templates, Contentlayer/MDX blog, pricing, features, testimonials, FAQ, newsletter, contact form.
 - Prompt pattern: "Generate a free Saasy Land-style full-stack SaaS starter UI with polished landing page, pricing/features/testimonials/FAQ, NextAuth sign-in/sign-up, email verification/password reset screens, newsletter/contact forms, MDX blog cards, and Tailwind shadcn/Radix components."
+
+## Free CoreUI React Admin
+
+- Color tokens: CoreUI/Bootstrap CSS variables, blue primary, gray surfaces, clear success/warning/danger states, accessible table and form colors.
+- Typography: practical enterprise dashboard labels, readable Bootstrap form/table text, strong KPI numbers.
+- Buttons: Bootstrap/CoreUI primary, secondary, outline, danger, and icon-action buttons with consistent sizing.
+- Cards: admin metric cards, chart panels, form cards, table cards, sidebar content panels.
+- Layout: responsive React/Vite admin shell with sidebar, header, routed pages, charts, forms, tables, and mobile-friendly navigation.
+- Spacing: Bootstrap-compatible spacing scale with compact enterprise density.
+- Radius/shadow: modest radius, light elevation, border-first panels for dense dashboards.
+- Dark/light: support CoreUI theme variables; keep chart/table contrast readable.
+- Components: CoreUI navigation, dashboard widgets, charts, tables, forms, responsive layouts, operational admin panels.
+- Prompt pattern: "Generate a free CoreUI React-style admin dashboard with responsive sidebar, Bootstrap/CoreUI cards, chart panels, forms, tables, status badges, and accessible enterprise dashboard spacing."
+
+## Free Nuxt UI Dashboard
+
+- Color tokens: Nuxt UI/Tailwind CSS variables, neutral surfaces, emerald/green Nuxt accent, semantic status colors, dark/light tokens.
+- Typography: clean Vue/Nuxt dashboard labels, compact route titles, clear table and chart labels.
+- Buttons: Nuxt UI primary/secondary/ghost buttons, command-palette actions, keyboard-visible focus rings.
+- Cards: multi-page dashboard cards, stat panels, table cards, command/action panels.
+- Layout: Nuxt dashboard shell with collapsible sidebar, header actions, keyboard shortcuts, command palette, multi-page routing, and responsive content grid.
+- Spacing: modern Tailwind v4 scale; keep pages dense but readable.
+- Radius/shadow: medium radius, border-first cards, subtle elevation.
+- Dark/light: first-class dark/light mode using Nuxt UI tokens.
+- Components: collapsible sidebar, command palette, data table, route pages, dashboard cards, keyboard shortcuts, light/dark toggle.
+- Prompt pattern: "Generate a free Nuxt UI dashboard with collapsible sidebar, command palette, keyboard shortcuts, dark/light mode, data tables, chart cards, and responsive Vue/Nuxt page structure."
+
+## Free Open Dashboard Skill Catalogue
+
+- Color tokens: Tailwind v4 CSS variables, neutral admin surfaces, clear status tokens, optional product accent per generated back-office.
+- Typography: compact back-office labels, monospace IDs/records, readable form and table hierarchy.
+- Buttons: shadcn/Base UI style buttons with strong keyboard focus, command actions, CRUD dialog actions, destructive confirmations.
+- Cards: CRUD cards, KPI cards, master-detail panels, billing cards, RBAC cards, realtime/status panels.
+- Layout: scaffold foundation first, then compose feature shapes: CRUD tables, detail pages, master-detail, kanban, calendar, wizards, charts, billing, RBAC, command palette, i18n, and realtime pages.
+- Spacing: dense but tested admin density; use reusable shape invariants before visual decoration.
+- Radius/shadow: variable radius, border-first cards, minimal shadow for maintainable generated UI.
+- Dark/light: token-driven themes with generated app branding via config.
+- Components: skill-driven dashboard shapes, TanStack Router/Query/Table patterns, Drizzle/better-auth seams, backend presets, demo-backed UI catalogue.
+- Prompt pattern: "Generate an Open Dashboard-style AI-composable back-office: scaffold a clean dashboard foundation, then add tested UI shapes for CRUD tables, master-detail, kanban, calendar, charts, billing, RBAC, command palette, i18n, realtime, and backend presets."
