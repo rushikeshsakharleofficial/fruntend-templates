@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T23:58:06+05:30",
+  "updated_at": "2026-07-06T00:01:28+05:30",
   "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
   "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
@@ -266,6 +266,30 @@
       "reuse_policy": "compatible-code",
       "best_for": ["AI-generated back offices", "CRUD dashboards", "RBAC pages", "billing dashboards", "kanban/calendar/wizard pages", "dashboard skill patterns", "agent-composable UI shapes"],
       "skill_usage": "Use as a free MIT reference for agent-composable dashboard skill design: scaffold foundation first, then add tested UI shapes for CRUD tables, master-detail pages, kanban, calendar, charts, billing, RBAC, command palette, i18n, realtime, and backend presets."
+    },
+    {
+      "name": "Mantis Free React Material UI Dashboard Template",
+      "repository": "codedthemes/mantis-free-react-admin-template",
+      "url": "https://github.com/codedthemes/mantis-free-react-admin-template",
+      "category": "material-react-admin-dashboard",
+      "framework": "React 19 / Next.js 16",
+      "styling": "MUI 9 + Ant Design design principles",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["Material admin dashboards", "React dashboard shells", "MUI forms", "analytics dashboards", "simple admin pages", "enterprise dashboards"],
+      "skill_usage": "Use only the free MIT Mantis repository for Material/MUI dashboard layout patterns, React 19 admin pages, responsive dashboard structure, prompt-library style documentation, and simple enterprise admin screens. Ignore Mantis Pro pages, Pro auth providers, advanced components, design files, plugins, and commercial assets."
+    },
+    {
+      "name": "Tailwind Admin Free Multi-Framework Dashboard Template",
+      "repository": "Tailwind-Admin/free-tailwind-admin-dashboard-template",
+      "url": "https://github.com/Tailwind-Admin/free-tailwind-admin-dashboard-template",
+      "category": "multi-framework-shadcn-admin-dashboard",
+      "framework": "Next.js / React / Angular / Vue / TanStack Start",
+      "styling": "Tailwind CSS + shadcn UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["multi-framework dashboards", "SaaS dashboards", "CRM admin panels", "internal tools", "ecommerce back offices", "charts", "tables", "auth pages", "dark mode"],
+      "skill_usage": "Use the free MIT multi-framework repository as a reference for Tailwind/shadcn admin dashboard shells across Next.js, React, Vue, Angular, and TanStack Start. Prefer framework-specific package folders, reusable sidebar/topbar/page-layout structure, prebuilt dashboard/profile/table/chart/auth/error pages, and accessible dark-mode patterns. Do not use any paid services or non-free assets."
     }
   ]
 }
