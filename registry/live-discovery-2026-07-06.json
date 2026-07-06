@@ -1,0 +1,43 @@
+{
+  "updated_at": "2026-07-06T23:58:42+05:30",
+  "purpose": "Free-only live discoveries for the frontend-components skill. Entries are concrete internet-discovered repositories with verified MIT license evidence and are not known duplicates of registry/internet-ui-templates.json or existing live discovery files.",
+  "license_policy": "Free-only scan. Do not add paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, or unclear-access templates/components. Copy code only when a compatible free/open-source license is verified.",
+  "templates": [
+    {
+      "name": "MTVerse Free Next.js Admin Dashboard Template",
+      "repository": "ui-mtverse/free-nextjs-admin-dashboard-template",
+      "url": "https://github.com/ui-mtverse/free-nextjs-admin-dashboard-template",
+      "category": "nextjs-admin-dashboard",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + ApexCharts + Prisma/Better Auth stack",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["Next.js admin dashboard", "SaaS dashboard", "ecommerce dashboard", "CRM dashboard", "analytics dashboard", "auth screens", "tables", "charts", "Prisma-backed app shell"],
+      "skill_usage": "Use as a concrete free MIT reference for a modern Next.js 16 admin dashboard with React 19, Tailwind v4, Better Auth, Prisma, Postgres, ApexCharts, ecommerce/CRM/analytics dashboard pages, auth screens, tables, and dark/light operational UI patterns. The package name contains 'pro', but the repository and license are public/MIT; continue to avoid any paid MTVerse assets outside this repository."
+    },
+    {
+      "name": "React Template Admin Ant Design Dashboard",
+      "repository": "panyushan-jade/react-template-admin",
+      "url": "https://github.com/panyushan-jade/react-template-admin",
+      "category": "antd-react-admin-dashboard",
+      "framework": "React 18 / TypeScript / Vite",
+      "styling": "Ant Design 5 + Ant Design Pro Components + Sass",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["Ant Design admin dashboards", "enterprise control panels", "charts", "tables", "CRUD screens", "React Router dashboards", "Zustand state management examples"],
+      "skill_usage": "Use as a free MIT Ant Design admin reference for enterprise dashboards with React Router, Ant Design Pro Components, chart panels, form/table-heavy pages, Zustand state patterns, and Vite-based admin project structure."
+    },
+    {
+      "name": "Mantine Analytics Dashboard",
+      "repository": "design-sparx/mantine-analytics-dashboard",
+      "url": "https://github.com/design-sparx/mantine-analytics-dashboard",
+      "category": "mantine-analytics-admin-dashboard",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Mantine 8 + Mantine DataTable + Recharts + Tabler Icons",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["analytics dashboards", "Mantine admin UI", "calendar dashboards", "data tables", "charts", "rich text/editor pages", "map dashboards", "Clerk auth dashboard shell"],
+      "skill_usage": "Use as a free MIT Mantine dashboard reference for analytics-heavy admin interfaces with Mantine 8 components, DataTable, Recharts, calendars, drag-and-drop, map/chart panels, spotlight search, notifications, modals, rich text pages, and dashboard shell patterns."
+    }
+  ]
+}
