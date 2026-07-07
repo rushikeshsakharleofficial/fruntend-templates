@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06T00:01:28+05:30",
+  "updated_at": "2026-07-07T23:58:26+05:30",
   "purpose": "Concrete internet-discovered free/open-source UI template sources for the frontend-components skill. These are real repositories or public template catalogs, not generic prompt ideas.",
   "license_policy": "Free-only scan. Only reuse code when a compatible free/open-source license is verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access templates/components.",
   "templates": [
@@ -290,6 +290,54 @@
       "reuse_policy": "compatible-code-free-version-only",
       "best_for": ["multi-framework dashboards", "SaaS dashboards", "CRM admin panels", "internal tools", "ecommerce back offices", "charts", "tables", "auth pages", "dark mode"],
       "skill_usage": "Use the free MIT multi-framework repository as a reference for Tailwind/shadcn admin dashboard shells across Next.js, React, Vue, Angular, and TanStack Start. Prefer framework-specific package folders, reusable sidebar/topbar/page-layout structure, prebuilt dashboard/profile/table/chart/auth/error pages, and accessible dark-mode patterns. Do not use any paid services or non-free assets."
+    },
+    {
+      "name": "Next 16 Chart Dashboard",
+      "repository": "aurorascharff/next16-chart-dashboard",
+      "url": "https://github.com/aurorascharff/next16-chart-dashboard",
+      "category": "analytics-dashboard",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui + Base UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["analytics dashboards", "chart dashboards", "KPI cards", "responsive dashboard shells", "dark mode dashboards", "Recharts dashboards"],
+      "skill_usage": "Use as a free MIT reference for modern analytics/KPI dashboards with Next.js 16, Recharts, shadcn components, Base UI primitives, Geist typography, SWR data loading, error boundaries, Sonner notifications, and Tailwind v4 layout tokens."
+    },
+    {
+      "name": "CTI Platform Cyber Dashboard",
+      "repository": "rinjanianalytics/cti-platform-dashboard",
+      "url": "https://github.com/rinjanianalytics/cti-platform-dashboard",
+      "category": "cyber-threat-intelligence-dashboard",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui + Base UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["cyber dashboards", "security operation dashboards", "threat intelligence pages", "graph visualizations", "command palettes", "incident analysis dashboards"],
+      "skill_usage": "Use as a free MIT reference for cybersecurity and DevSecOps dashboards: CTI overview pages, force-graph relationships, markdown intelligence summaries, command palettes, day-picker filters, toast feedback, dark-mode shells, and monitoring-style navigation."
+    },
+    {
+      "name": "Next.js Nextra Docs Starter",
+      "repository": "pdsuwwz/nextjs-nextra-starter",
+      "url": "https://github.com/pdsuwwz/nextjs-nextra-starter",
+      "category": "documentation-website-template",
+      "framework": "Next.js 16 / Nextra 4 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + Nextra Theme Docs + Radix UI",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["documentation websites", "developer docs", "product docs", "knowledge bases", "CMS/docs layouts", "searchable docs portals"],
+      "skill_usage": "Use as a free MIT reference for docs/CMS-style product websites with Nextra v4, Tailwind v4, Pagefind search output, sitemap generation, Nextra docs theme, Radix primitives, motion effects, and accessible dark/light documentation patterns."
+    },
+    {
+      "name": "OpenStarterKit Next.js SaaS Starter Kit",
+      "repository": "openstarterkit/nextjs-saas-starter-kit",
+      "url": "https://github.com/openstarterkit/nextjs-saas-starter-kit",
+      "category": "fullstack-saas-starter",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + Radix UI primitives",
+      "license": "MIT",
+      "reuse_policy": "compatible-code",
+      "best_for": ["SaaS landing pages", "auth flows", "billing pages", "subscription apps", "Prisma/Postgres dashboards", "email workflows", "settings pages"],
+      "skill_usage": "Use as a free MIT reference for full-stack SaaS apps with NextAuth, Prisma/Postgres, Stripe billing, Resend email flows, Radix UI primitives, Tailwind v4 tokens, seeded demo data, settings/subscription screens, and app-router SaaS structure."
     }
   ]
 }
