@@ -1,0 +1,72 @@
+{
+  "updated_at": "2026-07-08T23:58:53+05:30",
+  "purpose": "Daily free-only live discovery additions for frontend-components skill. Entries are concrete public repositories with verified MIT license evidence and are deduplicated against registry/internet-ui-templates.json and known live-discovery files.",
+  "license_policy": "Free-only. Code reuse is allowed only when the upstream license is compatible and verified. Paid, Pro, premium, gated, login-required, subscription-only, trial-only, marketplace-only, and unclear-access items are excluded.",
+  "templates": [
+    {
+      "name": "Shadcn Next.js Dashboard",
+      "repository": "NaveenDA/shadcn-nextjs-dashboard",
+      "url": "https://github.com/NaveenDA/shadcn-nextjs-dashboard",
+      "category": "shadcn-auth-dashboard",
+      "framework": "Next.js 15 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + Radix UI + shadcn-style primitives",
+      "license": "MIT",
+      "license_evidence": "Upstream LICENSE file contains MIT License; package.json confirms Next.js 15.3.8, React 19, Tailwind CSS 4, Radix UI, next-themes, Sonner, React Hook Form, and Zod.",
+      "reuse_policy": "compatible-code",
+      "best_for": ["authentication dashboards", "settings pages", "protected app shells", "forms", "OTP inputs", "dark/light mode", "internal tools"],
+      "skill_usage": "Use as a compact shadcn-style dashboard reference for auth-first admin pages, Radix-based form controls, theme switching, OTP/auth UI, toast feedback, and Next.js app-shell organization."
+    },
+    {
+      "name": "Shadcn CRM Dashboard",
+      "repository": "Harisaki/shadcn-crm-dashboard",
+      "url": "https://github.com/Harisaki/shadcn-crm-dashboard",
+      "category": "crm-dashboard",
+      "framework": "Next.js 15 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + Radix UI + shadcn/ui + Recharts",
+      "license": "MIT",
+      "license_evidence": "Upstream LICENSE file contains MIT License; package.json confirms Next.js 15.2.2, React 19, Tailwind CSS 4, TanStack Query/Table, Radix UI, Recharts, date filters, resizable panels, and Sonner.",
+      "reuse_policy": "compatible-code",
+      "best_for": ["CRM dashboards", "sales pipelines", "advanced data tables", "customer records", "analytics charts", "resizable panels", "Neon/Postgres-backed dashboards"],
+      "skill_usage": "Use as a concrete CRM/admin reference for data-heavy dashboards with TanStack Table, React Query, chart cards, customer/task flows, resizable panels, command-friendly navigation, and operational table UX."
+    },
+    {
+      "name": "Shadcn ECharts Demo",
+      "repository": "devs-tool/shadcn-echarts-demo",
+      "url": "https://github.com/devs-tool/shadcn-echarts-demo",
+      "category": "analytics-chart-dashboard-components",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn + Base UI + ECharts",
+      "license": "MIT",
+      "license_evidence": "Upstream LICENSE file contains MIT License; package.json confirms Next.js 16.1.6, React 19, Tailwind CSS 4, shadcn, Base UI, ECharts 6, Number Flow, and Lucide.",
+      "reuse_policy": "compatible-code",
+      "best_for": ["analytics dashboards", "ECharts dashboards", "KPI cards", "number animations", "monitoring charts", "server metrics", "finance charts"],
+      "skill_usage": "Use as a chart-heavy dashboard reference for shadcn + ECharts panels, animated KPI values, dashboard chart cards, monitoring visualizations, finance/traffic charts, and responsive analytics widgets."
+    },
+    {
+      "name": "Syncta SaaS Kit",
+      "repository": "antoine-lbo/syncta-saas-kit",
+      "url": "https://github.com/antoine-lbo/syncta-saas-kit",
+      "category": "supabase-stripe-saas-starter",
+      "framework": "Next.js 14 / React 18 / TypeScript",
+      "styling": "Tailwind CSS v3 + Recharts",
+      "license": "MIT",
+      "license_evidence": "Upstream LICENSE file contains MIT License; package.json confirms Next.js 14.1.0, Supabase client/SSR, Stripe, Recharts, Zod, Tailwind CSS 3, and React Email dev workflow.",
+      "reuse_policy": "compatible-code",
+      "best_for": ["SaaS landing pages", "Supabase auth flows", "Stripe billing", "subscription dashboards", "email workflows", "billing analytics", "settings pages"],
+      "skill_usage": "Use as a simple MIT SaaS reference for Supabase-backed app shells, Stripe checkout/subscription flows, billing screens, email workflow UI, Recharts metrics, and validation-backed forms."
+    },
+    {
+      "name": "Adminex React Free",
+      "repository": "devcraftify/adminex-react-free",
+      "url": "https://github.com/devcraftify/adminex-react-free",
+      "category": "react-tailwind-admin-dashboard",
+      "framework": "React 19 / Vite 8 / TypeScript",
+      "styling": "Tailwind CSS v4 + Chart.js + Iconify",
+      "license": "MIT",
+      "license_evidence": "Upstream LICENSE file contains MIT License; package.json declares MIT and confirms React 19, TypeScript, Vite 8, Tailwind CSS 4, Chart.js, React Router, Swiper, and Iconify.",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_for": ["React admin dashboards", "Vite dashboards", "chart dashboards", "sidebar app shells", "internal tools", "responsive admin panels", "free dashboard templates"],
+      "skill_usage": "Use as a free React/Vite/Tailwind admin dashboard reference for fast single-page admin shells, Chart.js widgets, icon-rich navigation, responsive cards, and lightweight internal dashboards."
+    }
+  ]
+}
