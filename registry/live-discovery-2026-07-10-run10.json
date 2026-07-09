@@ -1,0 +1,88 @@
+{
+  "updated_at": "2026-07-10T00:00:30+05:30",
+  "source_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "license_policy": "Only copy code from verified compatible free/open-source licenses. Store metadata-only notes for public free sources where a code license file could not be verified. Skip paid, Pro, premium, gated, login-required, marketplace-only, subscription-only, trial-only, and unclear-access sources.",
+  "discovered_templates": [
+    {
+      "name": "Next.js SaaS Starter by 0xmattthemii",
+      "repository": "0xmattthemii/nextjs-saas-starter",
+      "url": "https://github.com/0xmattthemii/nextjs-saas-starter",
+      "source_slug": "github-0xmattthemii-nextjs-saas-starter",
+      "category": "multi-tenant-saas-starter",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui",
+      "license_status": "MIT license file verified",
+      "reuse_policy": "compatible-code",
+      "best_fit_use_cases": [
+        "multi-tenant SaaS apps",
+        "organization settings pages",
+        "AI chat dashboards",
+        "auth flows",
+        "workspace switchers",
+        "CRUD internal tools",
+        "Postgres-backed SaaS dashboards"
+      ],
+      "skill_usage_notes": "Use as a free MIT reference for lean production-grade SaaS app structure with Better Auth organizations, Drizzle/Postgres, AI SDK streaming chat, account and organization settings, member invites, workspace switcher, server-first routes, granular Suspense loading, and a shadcn/Tailwind inset sidebar shell. Billing is intentionally not included, so add billing screens from separate verified-free sources when needed."
+    },
+    {
+      "name": "Next WorkOS Convex Starter",
+      "repository": "Hangtime1984/next-workos-convex-starter",
+      "url": "https://github.com/Hangtime1984/next-workos-convex-starter",
+      "source_slug": "github-hangtime1984-next-workos-convex-starter",
+      "category": "enterprise-auth-admin-starter",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui",
+      "license_status": "MIT license file verified",
+      "reuse_policy": "compatible-code",
+      "best_fit_use_cases": [
+        "enterprise admin portals",
+        "WorkOS auth dashboards",
+        "organization-scoped apps",
+        "SSO admin pages",
+        "user management dashboards",
+        "project launchpad dashboards",
+        "Convex realtime admin apps"
+      ],
+      "skill_usage_notes": "Use as a free MIT reference for enterprise SaaS/admin portals with hosted WorkOS AuthKit routes, org-scoped workspace routing, first-login onboarding, WorkOS profile/user-management/SSO widgets, server-issued widget tokens, Convex app data, protected admin routes, and Tailwind/shadcn dashboard shells."
+    },
+    {
+      "name": "SupaNext Starter Kit 2",
+      "repository": "vito8916/supabase-nextjs-starter-template",
+      "url": "https://github.com/vito8916/supabase-nextjs-starter-template",
+      "source_slug": "github-vito8916-supabase-nextjs-starter-template",
+      "category": "supabase-saas-dashboard-starter",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling": "Tailwind CSS v4 + shadcn/ui + Radix primitives",
+      "license_status": "Public free README; LICENSE file not found during this run",
+      "reuse_policy": "metadata-only-until-license-file-verified",
+      "best_fit_use_cases": [
+        "Supabase auth dashboards",
+        "landing + dashboard starters",
+        "profile settings pages",
+        "project CRUD tables",
+        "middleware-protected routes",
+        "dark mode SaaS shells"
+      ],
+      "skill_usage_notes": "Use as metadata and prompt-pattern reference only until a license file is verified. Useful patterns include Supabase SSR auth, public landing routes, protected dashboard redirects, profile settings, project CRUD table scaffolds, Tailwind v4 shadcn UI composition, and auth pages for sign-up/sign-in/forgot-password/update-password. Do not copy source code into reusable skill bundles yet."
+    }
+  ],
+  "skipped_candidates": [
+    {
+      "repository": "huuhabn/shadcn-admin-nextjs-starter",
+      "reason": "Appears to duplicate/fork the already-registered Kiranism Next Shadcn Dashboard Starter based on README/license references, so it was not added as a genuinely new template."
+    },
+    {
+      "repository": "adminmart/matdash-react-tailwind-free",
+      "reason": "README says free/open-source, but no LICENSE file was found during this run. Deferred to avoid adding too many metadata-only commercial-vendor entries without stronger license evidence."
+    },
+    {
+      "repository": "adminmart/MatDash-Nextjs-free",
+      "reason": "README says free/open-source, but no LICENSE file/package license was found during this run. Deferred to avoid unclear code reuse."
+    },
+    {
+      "repository": "vercel/nextjs-postgres-nextauth-tailwindcss-template",
+      "reason": "Useful public template, but no LICENSE file was found during this run, so it was not added as reusable code."
+    }
+  ]
+}
