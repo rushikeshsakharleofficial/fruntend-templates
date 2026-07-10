@@ -1,0 +1,40 @@
+{
+  "discovered_at": "2026-07-11T00:00:00+05:30",
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "items": [
+    {
+      "source_slug": "codedthemes-dashboardkit-free-admin-template",
+      "name": "DashboardKit Free Admin Template",
+      "repository": "codedthemes/dashboardkit-free-admin-template",
+      "repository_url": "https://github.com/codedthemes/dashboardkit-free-admin-template",
+      "catalog_url": "https://github.com/codedthemes/dashboardkit-free-admin-template#free-dashboardkit-versions",
+      "category": "multi-framework-admin-dashboard",
+      "framework": "React 18 + Vite and Bootstrap 5",
+      "styling_system": "Bootstrap 5, React Bootstrap, Sass, styled-components",
+      "license_status": "MIT verified from repository LICENSE",
+      "reuse_policy": "compatible-code-free-version-only",
+      "best_fit_use_cases": [
+        "admin dashboards",
+        "server monitoring dashboards",
+        "email queue monitoring dashboards",
+        "proxy and IP monitoring dashboards",
+        "cloud inventory dashboards",
+        "analytics and KPI dashboards",
+        "Bootstrap-based internal tools"
+      ],
+      "skill_usage_notes": "Use the free Bootstrap and React folders as concrete references for responsive admin shells, sidebar navigation, KPI cards, ApexCharts dashboards, tables, forms, validation, copy-to-clipboard controls, and operational monitoring layouts. Reuse code only from the free repository version under MIT; ignore linked premium products and assets.",
+      "evidence": {
+        "free_public": "Repository README explicitly lists free Bootstrap and React versions.",
+        "license": "Repository LICENSE contains the MIT License and grants use, modification, distribution, sublicensing, and sale rights with notice retention.",
+        "stack": "react/package.json declares React 18, Vite, Bootstrap 5.3, React Bootstrap, ApexCharts, styled-components, Sass, React Router, and Yup."
+      },
+      "dedupe_keys": {
+        "normalized_repository_url": "github.com/codedthemes/dashboardkit-free-admin-template",
+        "normalized_catalog_url": "github.com/codedthemes/dashboardkit-free-admin-template#free-dashboardkit-versions",
+        "normalized_name": "dashboardkit free admin template",
+        "source_slug": "codedthemes-dashboardkit-free-admin-template"
+      }
+    }
+  ]
+}
