@@ -1,0 +1,44 @@
+{
+  "discovered_at": "2026-07-12T00:00:00+05:30",
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "items": [
+    {
+      "source_slug": "arhamkhnz-next-shadcn-admin-dashboard",
+      "name": "Studio Admin Next.js Shadcn Dashboard",
+      "repository": "arhamkhnz/next-shadcn-admin-dashboard",
+      "repository_url": "https://github.com/arhamkhnz/next-shadcn-admin-dashboard",
+      "catalog_url": "https://next-shadcn-admin-dashboard.vercel.app",
+      "category": "multi-dashboard-admin-template",
+      "framework": "Next.js 16 + React + TypeScript",
+      "styling_system": "Tailwind CSS v4 + shadcn/ui",
+      "license_status": "MIT verified from repository LICENSE",
+      "reuse_policy": "compatible-code",
+      "best_fit_use_cases": [
+        "SaaS admin dashboards",
+        "analytics and KPI dashboards",
+        "CRM dashboards",
+        "finance dashboards",
+        "infrastructure monitoring dashboards",
+        "email queue monitoring dashboards",
+        "RBAC and user management dashboards",
+        "ecommerce admin dashboards",
+        "authentication flows",
+        "kanban, tasks, invoices, calendar, chat, and email interfaces"
+      ],
+      "skill_usage_notes": "Use as a concrete MIT-licensed reference for modern Next.js 16 admin shells with collapsible sidebars, variable content widths, light/dark and multi-preset themes, TanStack Table data grids, React Hook Form and Zod forms, Zustand state, multi-dashboard routing, users and roles pages, authentication screens, and operational pages such as infrastructure, email, invoices, tasks, kanban, and calendars. Retain the MIT copyright and license notice when reusing substantial code.",
+      "evidence": {
+        "free_public": "The public repository can be cloned and run locally without login, subscription, trial, or marketplace access.",
+        "license": "The repository LICENSE contains the MIT License and permits use, copying, modification, distribution, sublicensing, and sale with notice retention.",
+        "stack": "The README identifies Next.js 16, TypeScript, Tailwind CSS v4, shadcn/ui, Zod, React Hook Form, Zustand, TanStack Table, Biome, and Husky.",
+        "screens": "The README lists default, CRM, finance, analytics, productivity, ecommerce, academy, logistics, and infrastructure dashboards plus chat, email, users, roles, kanban, tasks, invoices, calendar, and four authentication screens."
+      },
+      "dedupe_keys": {
+        "normalized_repository_url": "github.com/arhamkhnz/next-shadcn-admin-dashboard",
+        "normalized_catalog_url": "next-shadcn-admin-dashboard.vercel.app",
+        "normalized_name": "studio admin nextjs shadcn dashboard",
+        "source_slug": "arhamkhnz-next-shadcn-admin-dashboard"
+      }
+    }
+  ]
+}
