@@ -1,0 +1,64 @@
+{
+  "discovered_at": "2026-07-13T00:01:35+05:30",
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "dedupe_checked_against": [
+    "registry/internet-ui-templates.json",
+    "registry/live-discovery-*.json",
+    "registry/discovered.json",
+    "registry/daily-source-targets.json"
+  ],
+  "items": [
+    {
+      "source_slug": "github-monogatariost-cat-admin",
+      "name": "CatAdmin",
+      "repository": "MonogatariOST/cat-admin",
+      "repository_url": "https://github.com/MonogatariOST/cat-admin",
+      "catalog_url": "https://github.com/MonogatariOST/cat-admin",
+      "normalized_repository_url": "github.com/monogatariost/cat-admin",
+      "normalized_catalog_url": "github.com/monogatariost/cat-admin",
+      "normalized_name": "catadmin",
+      "category": "admin-dashboard",
+      "framework": "React 19 + TypeScript + Vite 8",
+      "styling_system": "Tailwind CSS v4 + HeroUI v3",
+      "license_status": "verified-mit",
+      "license": "MIT",
+      "license_url": "https://github.com/MonogatariOST/cat-admin/blob/main/LICENSE",
+      "reuse_policy": "Code may be used, copied, modified, merged, published, distributed, sublicensed, and sold under MIT terms. Preserve the copyright and license notice in copies or substantial portions.",
+      "access_status": "free-public-open-source",
+      "best_fit_use_cases": [
+        "SaaS admin dashboards",
+        "RBAC and permission management",
+        "user activity audit dashboards",
+        "advanced data tables",
+        "analytics and KPI dashboards",
+        "CMS and article management",
+        "internal enterprise tools",
+        "settings and profile pages",
+        "task kanban boards"
+      ],
+      "notable_components": [
+        "responsive sidebar and mobile drawer",
+        "overview and analytics dashboards",
+        "advanced sortable selectable data table",
+        "column visibility controls",
+        "search filtering and pagination",
+        "data export",
+        "role and permission management",
+        "audit log timeline",
+        "rich text editor",
+        "file upload",
+        "kanban board",
+        "authentication route guards",
+        "dark mode",
+        "403 404 and 500 pages"
+      ],
+      "skill_usage_notes": "Use as a concrete source for React 19 admin shells, HeroUI/Tailwind component composition, advanced tables, RBAC screens, audit logs, content-management workflows, dashboard analytics, responsive navigation, forms, profile/settings pages, and dark-mode internal tools. Preserve the MIT notice when reusing substantial code.",
+      "discovery_reason": "New public 2026 repository with a complete admin UI surface, verified MIT license, and direct relevance to RBAC, audit, analytics, CMS, advanced-table, and internal-tool targets.",
+      "verified_from": [
+        "https://github.com/MonogatariOST/cat-admin/blob/main/README.md",
+        "https://github.com/MonogatariOST/cat-admin/blob/main/LICENSE"
+      ]
+    }
+  ]
+}
