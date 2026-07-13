@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-07-14T00:00:49+05:30",
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "scan_result": "1 genuinely new verified free/open-source template added",
+  "templates": [
+    {
+      "name": "Spree Storefront",
+      "source_slug": "spree-storefront",
+      "repository": "spree/storefront",
+      "repository_url": "https://github.com/spree/storefront",
+      "catalog_url": "https://spreecommerce.org/docs/developer/storefront/nextjs/quickstart",
+      "demo_url": "https://demo.spreecommerce.org",
+      "category": "headless-ecommerce-storefront",
+      "framework": "Next.js 16 / React 19 / TypeScript",
+      "styling_system": "Tailwind CSS 4",
+      "license_status": "MIT verified from repository LICENSE file",
+      "reuse_policy": "compatible-code; code may be used, modified, distributed, sublicensed, and sold provided the copyright and MIT permission notice are retained",
+      "access_status": "public repository, no login required, no trial, no marketplace gate",
+      "best_fit_use_cases": [
+        "ecommerce storefront",
+        "product catalog and faceted search",
+        "product detail and variant selection",
+        "shopping cart",
+        "one-page checkout",
+        "customer account and order history",
+        "multi-region and multi-language commerce",
+        "mobile-first retail website"
+      ],
+      "skill_usage_notes": "Use as a concrete production-grade ecommerce UI reference for product grids, product detail pages, responsive carts, checkout flows, account/order screens, regional selectors, policy pages, SEO metadata, and server-first Next.js storefront architecture. Keep Spree-specific API integration optional when adapting only the frontend patterns.",
+      "meaningful_update_reason": "Official Spree production storefront introduced in 2026 with Next.js 16, React 19, Tailwind CSS 4, multi-region routing, one-page checkout, account management, payment flows, transactional email UI, and verified MIT licensing.",
+      "dedupe": {
+        "normalized_repository_url": "github.com/spree/storefront",
+        "normalized_catalog_url": "spreecommerce.org/docs/developer/storefront/nextjs/quickstart",
+        "normalized_name": "spree-storefront",
+        "source_slug": "spree-storefront"
+      },
+      "verification": {
+        "repository_readme": "README states production-ready headless ecommerce storefront, Next.js 16, React 19, Tailwind CSS 4, open source MIT, and free to fork/customize.",
+        "license_file": "LICENSE is MIT, copyright 2026 Vendo Connect Inc. and Vendo Sp. z o.o.",
+        "verified_on": "2026-07-14"
+      }
+    }
+  ]
+}
