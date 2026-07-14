@@ -1,0 +1,87 @@
+{
+  "discovered_at": "2026-07-15T00:00:37+05:30",
+  "run": 15,
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "items": [
+    {
+      "source_slug": "github-horn111-polymarket-ui-kit",
+      "name": "Polymarket UI Kit",
+      "repository_url": "https://github.com/horn111/polymarket-ui-kit",
+      "catalog_url": "https://polymarket-ui-kit-demo-fkan-chi.vercel.app/studio",
+      "category": [
+        "analytics dashboard",
+        "prediction market UI",
+        "financial data visualization",
+        "advanced data tables",
+        "embed builder",
+        "mobile trading interface"
+      ],
+      "framework": [
+        "React 18.3+",
+        "React 19",
+        "TypeScript",
+        "shadcn-style registry"
+      ],
+      "styling_system": [
+        "CSS design tokens",
+        "theme CSS",
+        "light and dark themes",
+        "copy-in registry components"
+      ],
+      "license_status": "MIT verified from repository LICENSE and package metadata",
+      "reuse_policy": "Code may be used, copied, modified, merged, published, distributed, sublicensed, and sold under MIT; retain the copyright and license notice in copies or substantial portions.",
+      "access_status": "Free, public, no login required for repository, source components, documentation, or hosted registry endpoint.",
+      "best_fit_use_cases": [
+        "analytics and KPI dashboards",
+        "market and financial monitoring dashboards",
+        "probability and price-history charts",
+        "orderbook and bid/ask depth panels",
+        "leaderboard and ranked data tables",
+        "research portals and media embeds",
+        "mobile market-detail and trade-intent interfaces",
+        "DevTools-style embed and snippet generators"
+      ],
+      "skill_usage_notes": [
+        "Reuse MarketCard, ProbabilityChart, ProbabilitySparkline, OrderbookPanel, LeaderboardTable, EvidenceRail, and ShareCard patterns for dense real-time monitoring interfaces.",
+        "Adapt its explicit loading, unavailable-data, disclosure, attribution, and fee-preview states for infrastructure, email queue, proxy/IP, DNS migration, and cloud inventory dashboards.",
+        "Use the token and theme files as a reference for dual-mode data-heavy dashboards; do not inherit Polymarket branding when generating unrelated products.",
+        "Use the hosted shadcn-style registry or copy repository source only while retaining the MIT notice.",
+        "Treat authenticated trading and live order submission as out of scope; the useful reusable layer is read-first UI, visualization, embeds, tables, and intent handoff."
+      ],
+      "notable_components": [
+        "MarketHeader",
+        "EvidenceRail",
+        "PollMarketComparison",
+        "MarketCard",
+        "ProbabilitySparkline",
+        "ProbabilityChart",
+        "OrderbookPanel",
+        "OutcomeSwitcher",
+        "FeePill",
+        "CommentList",
+        "ComboBuilderCard",
+        "EmbedSnippetPanel",
+        "BuilderFeeDisclosure",
+        "ShareCard",
+        "LeaderboardTable",
+        "MobileTradeDrawer"
+      ],
+      "dedupe": {
+        "normalized_repository_url": "github.com/horn111/polymarket-ui-kit",
+        "normalized_catalog_url": "polymarket-ui-kit-demo-fkan-chi.vercel.app/studio",
+        "normalized_name": "polymarket ui kit",
+        "source_slug": "github-horn111-polymarket-ui-kit"
+      },
+      "verification": {
+        "repository_public": true,
+        "license_file_verified": true,
+        "package_license_verified": true,
+        "paid_or_pro_excluded": true,
+        "login_required": false,
+        "metadata_only": false,
+        "verified_on": "2026-07-15"
+      }
+    }
+  ]
+}
