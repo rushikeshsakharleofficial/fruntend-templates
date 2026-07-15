@@ -1,0 +1,87 @@
+{
+  "discovered_at": "2026-07-16T00:01:39+05:30",
+  "run": 16,
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "items": [
+    {
+      "source_slug": "github-ant-design-ant-design-pro",
+      "name": "Ant Design Pro v6 Enterprise Dashboard",
+      "repository_url": "https://github.com/ant-design/ant-design-pro",
+      "catalog_url": "https://preview.pro.ant.design",
+      "category": [
+        "enterprise admin dashboard",
+        "analytics dashboard",
+        "advanced forms",
+        "advanced data tables",
+        "account and settings UI",
+        "AI assistant dashboard"
+      ],
+      "framework": [
+        "React 19",
+        "TypeScript",
+        "Umi Max 4",
+        "Ant Design 6"
+      ],
+      "styling_system": [
+        "Ant Design 6 design system",
+        "Tailwind CSS v4",
+        "antd-style",
+        "theme tokens"
+      ],
+      "license_status": "MIT verified from repository LICENSE",
+      "reuse_policy": "Code may be used, copied, modified, merged, published, distributed, sublicensed, and sold under MIT; retain the copyright and license notice in copies or substantial portions.",
+      "access_status": "Free, public repository and preview; no login required to access source code, templates, documentation, or demo.",
+      "best_fit_use_cases": [
+        "enterprise admin portals",
+        "cloud inventory dashboards",
+        "RBAC and IAM administration",
+        "server and infrastructure monitoring",
+        "email queue and delivery monitoring",
+        "proxy and IP fleet monitoring",
+        "DNS migration control panels",
+        "analytics and KPI dashboards",
+        "user activity and audit dashboards"
+      ],
+      "skill_usage_notes": [
+        "Reuse the Analysis, Monitor, Workplace, Table List, Advanced Form, Account Center, Account Settings, and AI Assistant page structures for production admin applications.",
+        "Use Ant Design Pro layout density, responsive navigation, filter forms, status tables, charts, result states, and exception pages as references for complex operations dashboards.",
+        "Keep domain branding independent from Ant Design Pro branding and replace demo data, icons, and product copy.",
+        "Prefer design tokens and documented component APIs over hard-coded visual values.",
+        "Retain the MIT copyright and license notice when copying substantial code or templates."
+      ],
+      "notable_components": [
+        "Dashboard Analysis",
+        "Dashboard Monitor",
+        "Dashboard Workplace",
+        "Basic Form",
+        "Step Form",
+        "Advanced Form",
+        "Table List",
+        "Card List",
+        "Basic Profile",
+        "Advanced Profile",
+        "Account Center",
+        "Account Settings",
+        "AI Assistant",
+        "Login and Registration",
+        "403, 404, and 500 exception pages"
+      ],
+      "dedupe": {
+        "normalized_repository_url": "github.com/ant-design/ant-design-pro",
+        "normalized_catalog_url": "preview.pro.ant.design",
+        "normalized_name": "ant design pro v6 enterprise dashboard",
+        "source_slug": "github-ant-design-ant-design-pro"
+      },
+      "verification": {
+        "repository_public": true,
+        "license_file_verified": true,
+        "paid_or_pro_excluded": true,
+        "login_required": false,
+        "metadata_only": false,
+        "verified_on": "2026-07-16",
+        "meaningful_update": "Current v6 stack documents React 19, Ant Design 6, Umi Max 4, Tailwind CSS v4, antd-style, AI Assistant, responsive templates, and light/dark previews."
+      }
+    }
+  ]
+}
