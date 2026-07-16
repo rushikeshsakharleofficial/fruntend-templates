@@ -1,0 +1,78 @@
+{
+  "discovered_at": "2026-07-17T00:00:00+05:30",
+  "run": 17,
+  "source_target_file": "registry/daily-source-targets.json",
+  "free_only": true,
+  "items": [
+    {
+      "source_slug": "github-terapaksolutions-smartapp-ui-kit-template",
+      "name": "SmartApp AI Dashboard UI Kit",
+      "repository_url": "https://github.com/TerapakSolutions/smartapp-ui-kit-template",
+      "catalog_url": "https://github.com/TerapakSolutions/smartapp-ui-kit-template",
+      "category": [
+        "AI application dashboard",
+        "SaaS dashboard shell",
+        "admin dashboard",
+        "responsive application UI",
+        "tested React starter"
+      ],
+      "framework": [
+        "React 18",
+        "TypeScript",
+        "Vite 5",
+        "React Router 7",
+        "Zustand 5"
+      ],
+      "styling_system": [
+        "Tailwind CSS 3",
+        "Framer Motion",
+        "React Icons",
+        "PostCSS"
+      ],
+      "license_status": "MIT verified from repository LICENSE",
+      "reuse_policy": "Code may be used, copied, modified, merged, published, distributed, sublicensed, and sold under MIT; retain the copyright and license notice in copies or substantial portions.",
+      "access_status": "Free public GitHub repository; source, documentation, and license are accessible without login or payment.",
+      "best_fit_use_cases": [
+        "AI product dashboards",
+        "SaaS application shells",
+        "internal admin tools",
+        "developer tool dashboards",
+        "cloud inventory dashboards",
+        "server and service monitoring dashboards",
+        "email queue monitoring dashboards",
+        "user activity and audit dashboards"
+      ],
+      "skill_usage_notes": [
+        "Use the responsive dashboard shell, navigation patterns, motion conventions, route structure, and Zustand state organization as a reusable starting point for AI-first and operations applications.",
+        "Preserve the TypeScript-only source rule when adapting components so generated projects remain consistent and type-safe.",
+        "Reuse the included Jest, React Testing Library, and Cypress setup when generating production dashboard components and user-flow tests.",
+        "Replace inspiration-specific branding, copy, mock data, and visual assets before reuse.",
+        "Retain the MIT copyright and license notice when copying substantial code or templates."
+      ],
+      "notable_components": [
+        "responsive dashboard layout",
+        "application navigation",
+        "animated dashboard interactions",
+        "route-ready page structure",
+        "Zustand state layer",
+        "Jest and React Testing Library setup",
+        "Cypress end-to-end test setup"
+      ],
+      "dedupe": {
+        "normalized_repository_url": "github.com/terapaksolutions/smartapp-ui-kit-template",
+        "normalized_catalog_url": "github.com/terapaksolutions/smartapp-ui-kit-template",
+        "normalized_name": "smartapp ai dashboard ui kit",
+        "source_slug": "github-terapaksolutions-smartapp-ui-kit-template"
+      },
+      "verification": {
+        "repository_public": true,
+        "license_file_verified": true,
+        "paid_or_pro_excluded": true,
+        "login_required": false,
+        "metadata_only": false,
+        "verified_on": "2026-07-17",
+        "meaningful_update": "Stable v1.0.0 AI-first React and TypeScript dashboard baseline with Tailwind CSS, Framer Motion, responsive behavior, Zustand state, Jest coverage, and Cypress end-to-end testing."
+      }
+    }
+  ]
+}
